@@ -11,8 +11,7 @@
 
               Version 0: The virtually nothing version
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-                     INTRODUCTION + OVERVIEW:
+<h2> INTRODUCTION + OVERVIEW: </h2>
 The Fyle Project aims to create an accessible, free, open-source all-in-one 
 conversion software interface. Fyle- the main program- does not contain any 
 conversion itself, but rather acts as a middleman, providing an easier and 
@@ -23,7 +22,8 @@ commands, but also offers easy batch conversion to convert multiple programs
 at one time, or over a period of time.
 It can also (theoretically) work with any other program! The only prerequisites 
 being that said external program accepts command line arguments, would otherwise 
-run on your computer, and has a .FYLE configuration linked to it (more information below).
+run on your computer, and has a .FYLE configuration linked to it (more 
+information below).
 
 					!!!		DISCLAIMERS	    !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -41,7 +41,7 @@ CHOOSE AN OUTPUT DIRECTORY.
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ USING FYLE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<h2> USING FYLE </h2>
 Upon running FYLE, the program will provide a list of programs that you can use,
 with a number beside each one. To prepare a conversion process, simply type the
 number next to the desired program.
@@ -74,7 +74,7 @@ NOTE: FYLE will display the "Process Complete" even if the external program cras
 run. 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~ SETTING UP A PROGRAM TO USE WITH FYLE ~~~~~~~~~~~~~~~~~~~~~~~~~
+SETTING UP A PROGRAM TO USE WITH FYLE
 In order to set up an external program to work with Fyle, two things are needed:
     1. The program must be under the Programs directory, or any of its children 
     (FYLE/Programs/Program goes here)
@@ -144,7 +144,7 @@ an integer without causing problems.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~ FUTURE PLANS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FUTURE PLANS
 Features planned for future releases:
 >> Automations: preconfigure processes and run instantly
 >> Debug mode: print relevant variables and debug info in the console
