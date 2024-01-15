@@ -87,10 +87,11 @@ program will take the arguments (keep in mind, the programs directory will
 always be the first argument) and take up one line each, with no separating 
 lines.
 
-    They are set up in this way:
+~
+They are set up in this way:
 Program name
 Program directory, relative to the Programs directory (e.g. Fyle/IMG CONV/Image Convertor.exe)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 I : file (for import use only)
 I <dialogue text>
 
@@ -108,12 +109,12 @@ D [y/n (support custom options)] <dialogue text> {option1} {option2} {option3} {
 
 C : checkbox
 C [y/n (default option)] <dialogue text>
-
-
-    For example:
+~
+~
+For example:
 FYLE Example Software
 FYLE\\EG\\Example.py
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 I <Files in>
 F <Export location>
 D y <Image type to convert to> {png} {jpg} {gif} {tiff} {ico} {webp} {avif}
@@ -139,9 +140,8 @@ AS THEY HAVE BEEN SET UP CORRECTLY.
 * Note: all arguments will be sent to external program as strings. Using the N
 option in the FYLE configuration just makes sure the string can be converted into
 an integer without causing problems.
+~
 
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 <h2> FUTURE PLANS </h2>
 Features planned for future releases:
 >> Automations: preconfigure processes and run instantly
