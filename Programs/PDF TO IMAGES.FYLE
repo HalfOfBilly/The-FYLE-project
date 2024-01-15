@@ -1,0 +1,6 @@
+FYLE PDF to images
+FYLE\\PDF TO IMG\\pdf image extractor.py
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+I <PDF file in>
+F <Image export location>
+D y <Exported image format> {png} {jpg} {gif} {bmp} {tiff}
