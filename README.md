@@ -25,8 +25,7 @@ being that said external program accepts command line arguments, would otherwise
 run on your computer, and has a .FYLE configuration linked to it (more 
 information below).
 
-					!!!		DISCLAIMERS	    !!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<h2>!!!		DISCLAIMERS	    !!!</h3>
 PLEASE KEEP IN MIND THAT FYLE IS ESSENTIALLY A COMMAND-LINE EXECUTOR. THERE IS 
 NOTHING IN PLACE ENSURING THAT THE EXTERNAL PROGRAMS IT RUNS ARE NOT MALICIOUS.
 FOR YOUR SAFETY, IT IS HIGHLY ADVISED TO ONLY RUN PROGRAMS THAT YOU HAVE BUILT 
@@ -38,7 +37,6 @@ external programs, or third party mods of the base program.
 FYLE DOES NOT CHECK IF A PROCESS WILL OVERWRITE EXISTING FILES. TO PREVENT 
 UNWANTED FILE LOSS MAKE SURE YOU SELECT EMPTY FOLDERS WHEN PROMPTED TO 
 CHOOSE AN OUTPUT DIRECTORY.
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 <h2> USING FYLE </h2>
 Upon running FYLE, the program will provide a list of programs that you can use,
@@ -87,8 +85,9 @@ program will take the arguments (keep in mind, the programs directory will
 always be the first argument) and take up one line each, with no separating 
 lines.
 
-~~~
+
 They are set up in this way:
+~~~
 Program name
 Program directory, relative to the Programs directory (e.g. Fyle/IMG CONV/Image Convertor.exe)
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
@@ -109,9 +108,10 @@ D [y/n (support custom options)] <dialogue text> {option1} {option2} {option3} {
 
 C : checkbox
 C [y/n (default option)] <dialogue text>
-~
-~
+~~~
+
 For example:
+~~~
 FYLE Example Software
 FYLE\\EG\\Example.py
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
