@@ -40,7 +40,7 @@ UNWANTED FILE LOSS MAKE SURE YOU SELECT EMPTY FOLDERS WHEN PROMPTED TO
 CHOOSE AN OUTPUT DIRECTORY.
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ USING FYLE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Upon running FYLE, the program will provide a list of programs that you can use,
 with a number beside each one. To prepare a conversion process, simply type the
@@ -73,7 +73,7 @@ a "Process Complete" notice will appear, and you'll return to the Process select
 NOTE: FYLE will display the "Process Complete" even if the external program crashes/doesn't
 run. 
 
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~ SETTING UP A PROGRAM TO USE WITH FYLE ~~~~~~~~~~~~~~~~~~~~~~~~~
 In order to set up an external program to work with Fyle, two things are needed:
     1. The program must be under the Programs directory, or any of its children 
@@ -143,7 +143,7 @@ option in the FYLE configuration just makes sure the string can be converted int
 an integer without causing problems.
 
 
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~ FUTURE PLANS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Features planned for future releases:
 >> Automations: preconfigure processes and run instantly
