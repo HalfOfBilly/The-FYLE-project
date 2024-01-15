@@ -81,13 +81,13 @@ In order to set up an external program to work with Fyle, two things are needed:
 
 A .FYLE file is used to tell Fyle what arguments the external program needs to 
 run, such as import directories and export folders.
-The options under the ~~~~~~~~~~~~~~~~~~~~ are all optional- they are what 
+The options after line 3 are all optional- they are what 
 arguments will be sent to Fyle. These options must be in the order that the 
 program will take the arguments (keep in mind, the programs directory will 
 always be the first argument) and take up one line each, with no separating 
 lines.
 
-~
+~~~
 They are set up in this way:
 Program name
 Program directory, relative to the Programs directory (e.g. Fyle/IMG CONV/Image Convertor.exe)
@@ -121,6 +121,7 @@ D y <Image type to convert to> {png} {jpg} {gif} {tiff} {ico} {webp} {avif}
 C n <Overwrite existing files?>
 S <Export file name>
 N 0 99 <Wait time between conversions>
+~~~
 
 The first letter represents the function- how the user will be presented these 
 arguments and how Fyle will handle them.
@@ -140,7 +141,7 @@ AS THEY HAVE BEEN SET UP CORRECTLY.
 * Note: all arguments will be sent to external program as strings. Using the N
 option in the FYLE configuration just makes sure the string can be converted into
 an integer without causing problems.
-~
+
 
 <h2> FUTURE PLANS </h2>
 Features planned for future releases:
