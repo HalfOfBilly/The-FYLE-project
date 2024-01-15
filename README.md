@@ -10,7 +10,7 @@
     |____|           |_____|     |____________|  |__________|   PROJECT
 
               Version 0: The virtually nothing version
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 <h2> INTRODUCTION + OVERVIEW: </h2>
 The Fyle Project aims to create an accessible, free, open-source all-in-one 
 conversion software interface. Fyle- the main program- does not contain any 
@@ -40,7 +40,6 @@ UNWANTED FILE LOSS MAKE SURE YOU SELECT EMPTY FOLDERS WHEN PROMPTED TO
 CHOOSE AN OUTPUT DIRECTORY.
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 <h2> USING FYLE </h2>
 Upon running FYLE, the program will provide a list of programs that you can use,
 with a number beside each one. To prepare a conversion process, simply type the
@@ -73,8 +72,7 @@ a "Process Complete" notice will appear, and you'll return to the Process select
 NOTE: FYLE will display the "Process Complete" even if the external program crashes/doesn't
 run. 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-SETTING UP A PROGRAM TO USE WITH FYLE
+<h2> SETTING UP A PROGRAM TO USE WITH FYLE </h2>
 In order to set up an external program to work with Fyle, two things are needed:
     1. The program must be under the Programs directory, or any of its children 
     (FYLE/Programs/Program goes here)
@@ -144,7 +142,7 @@ an integer without causing problems.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-FUTURE PLANS
+<h2> FUTURE PLANS </h2>
 Features planned for future releases:
 >> Automations: preconfigure processes and run instantly
 >> Debug mode: print relevant variables and debug info in the console
