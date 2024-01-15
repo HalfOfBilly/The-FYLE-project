@@ -1,4 +1,5 @@
 <img src="Github assets//LOGO.png" style="width:20%;display:block;margin-left:auto;margin-right:auto;"></img>
+<p></p>
 Version 0: The virtually nothing version
 
 <h2> INTRODUCTION + OVERVIEW: </h2>
