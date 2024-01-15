@@ -1,13 +1,4 @@
-    THE 
-    ___________   ____     ____  _______         ____________
-    |         |   \    \  /   /  |     |         |          |
-    |    _____|    \    \/   /   |     |         |     _____| 
-    |    |____      \       /    |     |         |     |__
-    |        |       \     /     |     |         |        |
-    |    ____|       |     |     |     |         |     ___|
-    |    |           |     |     |     |______   |     |____
-    |    |           |     |     |            |  |          |
-    |____|           |_____|     |____________|  |__________|   PROJECT
+<img src="Github assets//LOGO.png" style="width:50%"></img>
 
               Version 0: The virtually nothing version
 
@@ -138,20 +129,20 @@ proper GUI. Incorrect configuration on your part may make your program appear
 broken in the future. FYLE WILL ALWAYS SUPPORT OLD .FYLE CONFIGURATIONS AS LONG 
 AS THEY HAVE BEEN SET UP CORRECTLY.
 
-* Note: all arguments will be sent to external program as strings. Using the N
+Note: all arguments will be sent to external program as strings. Using the N
 option in the FYLE configuration just makes sure the string can be converted into
 an integer without causing problems.
 
 
 <h2> FUTURE PLANS </h2>
 Features planned for future releases:
->> Automations: preconfigure processes and run instantly
->> Debug mode: print relevant variables and debug info in the console
->> Threading: convert multiple files at the same time
->> De-hardcoding variables and placing them in editable .txt files
+* Automation: preconfigure processes and run instantly
+* Debug mode: print relevant variables and debug info in the console
+* Threading: convert multiple files at the same time
+* De-hardcoding variables and placing them in editable .txt files
 
->> Proper GUI: official-looking interface with a window and buttons and everything!
->> GUI themes: customise the Proper GUI when it comes out
+* Proper GUI: official-looking interface with a window and buttons and everything!
+* GUI themes: customise the Proper GUI when it comes out
 
->> Branching options: provide different prompts based on user selection.
->> Float: prompt use to enter a decimal float
+* Branching options: provide different prompts based on user selection.
+* Float: prompt use to enter a decimal float
