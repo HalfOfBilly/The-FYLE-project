@@ -1,6 +1,5 @@
-<img src="Github assets//LOGO.png" style="width:50%"></img>
-
-              Version 0: The virtually nothing version
+<img src="Github assets//LOGO.png" style="width:20%;display:block;margin-left:auto;margin-right:auto;"></img>
+Version 0: The virtually nothing version
 
 <h2> INTRODUCTION + OVERVIEW: </h2>
 The Fyle Project aims to create an accessible, free, open-source all-in-one 
