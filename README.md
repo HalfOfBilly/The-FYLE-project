@@ -136,6 +136,7 @@ an integer without causing problems.
 
 <h2> FUTURE PLANS </h2>
 Features planned for future releases:
+
 * Automation: preconfigure processes and run instantly
 * Debug mode: print relevant variables and debug info in the console
 * Threading: convert multiple files at the same time
