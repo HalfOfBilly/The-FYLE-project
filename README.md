@@ -84,7 +84,7 @@ They are set up in this way:
 ~~~
 Program name
 Program directory, relative to the Programs directory (e.g. Fyle/IMG CONV/Image Convertor.exe)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(Blank Line, ignored by FYLE)
 I : file (for import use only)
 I <dialogue text>
 
@@ -108,7 +108,7 @@ For example:
 ~~~
 FYLE Example Software
 FYLE\\EG\\Example.py
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 I <Files in>
 F <Export location>
 D y <Image type to convert to> {png} {jpg} {gif} {tiff} {ico} {webp} {avif}
