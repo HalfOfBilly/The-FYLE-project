@@ -37,6 +37,7 @@ At this point, you may also type 'Quit' to terminate FYLE.
 
 Once a program has been selected, you will be presented with 3 'Process Type'
 options:
+
 S - SINGLE: Converts a single file.
 
 B - BATCH: Converts all files found in the select folder. If this option is selected,
@@ -44,6 +45,8 @@ all prompts that would have typically asked for a file directory will instead as
 a folder directory. FYLE will then ask the external program to convert all the files
 in the selected folder.
 If the select folder contains files not compatible with the external process, FYLE will
+ignore any errors thrown by the external program and continue as per usual. Invalid files
+will likely not be converted.
 
 C - CHIPPER: Once set up, FYLE will actively check the import folder for files. Upon
 detecting files in the folder, it will convert them into the export folder and move the
@@ -81,7 +84,7 @@ They are set up in this way:
 ~~~
 Program name
 Program directory, relative to the Programs directory (e.g. Fyle/IMG CONV/Image Convertor.exe)
-"~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 I : file (for import use only)
 I <dialogue text>
 
@@ -105,7 +108,7 @@ For example:
 ~~~
 FYLE Example Software
 FYLE\\EG\\Example.py
-"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 I <Files in>
 F <Export location>
 D y <Image type to convert to> {png} {jpg} {gif} {tiff} {ico} {webp} {avif}
